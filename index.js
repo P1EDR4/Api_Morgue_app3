@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 //const { DB_NAME, DB_PASSWORD, DB_USER, DB_HOST } = require('./constantes');
 const app = require("./app");
 
-const dbURL = `mongodb+srv://jesus:Zeuschela1@morgue-prueba.tp72al1.mongodb.net/`;
+const dbURL = `mongodb+srv://jesus:Zeuschela1@morgue-prueba.tp72al1.mongodb.net/userspass`;
 
 const PORT = process.env.PORT || 4000;
 
