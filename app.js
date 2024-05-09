@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 
 app.use(cors({
-    origin: 'https://morgueapp.onrender.com'
+    origin: 'http://localhost:3000'
   }));
 
 
